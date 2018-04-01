@@ -251,7 +251,7 @@
 									</ul>
 								</li>
 								<li class="dropdown-submenu">
-									<a class="test" tabindex="-1" href="#">0x09 - Unvalidated Redirect & Forward
+									<a class="test" tabindex="-1" href="#">0x09 - Unvalidated Redirect & SSRF
 										<span class="caret"></span>
 									</a>
 									<ul class="dropdown-menu">
@@ -260,6 +260,9 @@
 										</li>
 										<li>
 											<a href="<%=path%>/vulnerability/unvalidated/OpenForward.jsp">Open Forward</a>
+										</li>
+										<li>
+											<a href="<%=path%>/vulnerability/ssrf.jsp">SSRF</a>
 										</li>
 									</ul>
 								</li>
@@ -286,7 +289,7 @@
 							%>
 						</li>
 						<li>
-							<a href="#">About</a>
+							<a href="<%=path%>/about.jsp">About</a>
 						</li>
 						<li>
 							<a href="<%=path%>/contact.jsp">Contact</a>

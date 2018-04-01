@@ -52,6 +52,10 @@
         <servlet-name>xxe</servlet-name>
         <servlet-class>org.cysecurity.cspf.jvl.controller.xxe</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ssrf</servlet-name>
+        <servlet-class>org.cysecurity.cspf.jvl.controller.Ssrf</servlet-class>
+    </servlet>
    
     <servlet-mapping>
         <servlet-name>Install</servlet-name>
@@ -100,6 +104,10 @@
    <servlet-mapping>
         <servlet-name>xxe</servlet-name>
         <url-pattern>/xxe.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ssrf</servlet-name>
+        <url-pattern>/ssrf.do</url-pattern>
     </servlet-mapping>
    
 </web-app>
