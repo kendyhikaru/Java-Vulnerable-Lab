@@ -4,7 +4,7 @@
 
 <web-app>
 
- <servlet>
+    <servlet>
         <servlet-name>Install</servlet-name>
         <servlet-class>org.cysecurity.cspf.jvl.controller.Install</servlet-class>
     </servlet>
@@ -56,7 +56,6 @@
         <servlet-name>ssrf</servlet-name>
         <servlet-class>org.cysecurity.cspf.jvl.controller.Ssrf</servlet-class>
     </servlet>
-   
     <servlet-mapping>
         <servlet-name>Install</servlet-name>
         <url-pattern>/Install</url-pattern>
@@ -109,5 +108,4 @@
         <servlet-name>ssrf</servlet-name>
         <url-pattern>/ssrf.do</url-pattern>
     </servlet-mapping>
-   
 </web-app>

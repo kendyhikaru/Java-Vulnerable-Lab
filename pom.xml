@@ -56,8 +56,8 @@
                 </goals>
                 <phase>package</phase>
                 <configuration>
-                    <path>/</path>
-                    <enableNaming>false</enableNaming>
+                    <path>/JavaVulnerableLab</path>
+                    <enableNaming>true</enableNaming>
                     <finalName>JavaVulnerableLab.jar</finalName>
                     <charset>utf-8</charset>
                 </configuration>
